@@ -1,5 +1,6 @@
 ---
 layout: ./../layouts/LayoutMD.astro
+title: "Cortafuegos"
 ---
 
 # Cortafuegos
