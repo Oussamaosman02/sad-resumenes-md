@@ -1,0 +1,33 @@
+---
+const { link } = Astro.props;
+---
+
+<a href={link}> Cortafuegos</a>
+
+<style>
+  a {
+    border-radius: 28px;
+    background: #ffffff;
+    box-shadow: 5px 5px 15px #666666, -5px -5px 15px #ffffff;
+
+    text-decoration: none;
+    color: crimson;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 2rem;
+    font-weight: 900;
+
+    transition: all 0.5s;
+  }
+  a:hover {
+    border-radius: 28px;
+    background: #ffffff;
+    box-shadow: inset 5px 5px 15px #666666, inset -5px -5px 15px #ffffff;
+    font-weight: 700;
+  }
+</style>
