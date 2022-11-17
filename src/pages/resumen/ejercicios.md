@@ -1,3 +1,8 @@
+---
+layout: ./../../layouts/LayoutMD.astro
+title: "Ejercicios"
+---
+
 # Ejercicios sobre NFT
 
 ---
