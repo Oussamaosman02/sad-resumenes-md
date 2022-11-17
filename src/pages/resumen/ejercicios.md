@@ -130,7 +130,7 @@ table inet filtradoHTTP{
 
 Se ha observado un abuso de navegación. Se desea prohibir el tráfico HTTP y HTTPS a toda la red 172.16.100.0/24. Recuerda que necesitarás cambiar el 100 por tu número de puesto.
 
-````bash
+```bash
 #!/usr/sbin/nft -f
 flush ruleset
 table inet tablaNAT{
