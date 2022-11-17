@@ -52,6 +52,7 @@ Configura el router Ubuntu para que acepte tráfico por la tarjeta enp0s3 y lo s
 De aquí en adelante, cada ejercicio es independiente de los demás. CONSTRUYE UN NUEVO FICHERO /etc/nftables.conf para cada uno o al menos toma medidas para no mezclar los ejercicios (comentar reglas anteriores o similar)
 
 ```bash
+#/etc/nftables.conf
 #!/usr/sbin/nft -f
 flush ruleset
 table inet tablaNAT{
